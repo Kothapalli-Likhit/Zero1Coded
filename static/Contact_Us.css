@@ -1,0 +1,15 @@
+
+/* #bigcontainer{
+    display: flex;
+  justify-content: center;
+}
+
+.logo{
+    height: fit-content;
+    width: 49%;
+}
+.container{
+    display: inline;
+    border: 2px solid black;
+    overflow: hidden;
+} */

@@ -1,0 +1,53 @@
+extends  base.pug 
+
+block style 
+    style 
+        include ../static/navbar.css
+        include ../static/home_style.css
+        link(rel='preconnect' href='https://fonts.googleapis.com')
+        link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+        link(href='https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap' rel='stylesheet')
+        include ../static/footer_style.css
+
+block content 
+    div#div_of_homelogo
+        div#club_logo
+            img#homelogo(src="../static/logo.jpeg", alt="", srcset="")
+        div#home_about_Us
+            h2#about_us_heading About Club 
+            p#para_for_about_us   
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe nulla modi debitis, minus eius aliquid? Quae eligendi recusandae, labore optio sit accusamus amet laborum ipsam!
+
+
+    div#flex_container
+        div#news_container.container
+
+            h2.newsANDEvents News
+
+            ul.newsANDEventsList 
+                li.tags 
+                    a(href="#") News1
+                li.tags 
+                    a(href="#") News2
+                li.tags 
+                    a(href="#") News3
+                li.tags 
+                    a(href="#") News4            
+
+           
+
+        div#EventsContainer.container
+
+            h2.newsANDEvents Events
+
+            ul.newsANDEventsList 
+                li.tags 
+                    a(href="#") Events1
+                li.tags 
+                    a(href="#") Events2
+                li.tags 
+                    a(href="#") Events3
+                li.tags
+                    a(href="#") Events4      
+            
+

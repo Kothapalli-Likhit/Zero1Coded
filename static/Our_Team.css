@@ -1,0 +1,44 @@
+h2 , h3{
+    text-align: center;
+}
+
+.team{
+    /* border : 2px solid black; */
+    margin:10px;
+    height: fit-content;
+    width: 100%;
+    align-content: center;
+}
+
+.img{
+  height: 125px;
+  width: 125px;
+  border-radius: 150%;
+  margin: auto;
+  display: block;
+}
+
+p{
+    text-align: center;
+}
+.griddiv{
+    /* border: 2px solid black; */
+    display : grid ;
+    grid-gap:20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+}
+.griddiv2{
+    /* border: 2px solid black; */
+    display : grid ;
+    grid-gap:20px;
+    grid-template-columns: 1fr  1fr;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+
+}
+
+.para_abt_team{
+    font-size: medium;
+}

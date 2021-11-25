@@ -1,0 +1,46 @@
+extends base.pug
+
+block style 
+    style 
+        include ../static/navbar.css
+        link(rel='preconnect' href='https://fonts.googleapis.com')
+        link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+        link(href='https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap' rel='stylesheet')
+        include ../static/footer_style.css
+        include ../static/Resources.css
+
+block content 
+    div.gridin_Resorces
+        div.Resources1
+             a.atag(href="")
+                img.re(src="../static/py.png", alt="")
+                h3.h3resources Python 
+
+        div.Resources1
+             a.atag(href="")
+                img.re(src="../static/java.png", alt="")
+                h3.h3resources  Java
+
+        div.Resources1
+             a.atag(href="")
+                img.re(src="../static/c++.png", alt="")
+                h3.h3resources  C++
+
+    div.gridin_Resorces 
+        div.Resources1
+            a.atag(href="")
+                img.re(src="../static/js.png", alt="")
+                h3.h3resources  Javascript 
+
+        div.Resources1
+             a.atag(href="")
+                img.re(src="../static/wd3.png", alt="")
+                h3.h3resources  Web Development 
+
+        div.Resources1
+             a.atag(href="")
+                img.re(src="../static/ad.png", alt="")
+                h3.h3resources  Android Development          
+
+
+

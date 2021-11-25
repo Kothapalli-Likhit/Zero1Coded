@@ -1,0 +1,35 @@
+
+#instalogo{
+    height: 15px;
+    /* margin-left: 5px; */
+}
+#gmaillogo{
+    height: 15px;
+    margin-left: 90px;
+    
+}
+.para{
+    display: inline;
+    margin-right:15px ;
+}
+
+#footerbar{
+    
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(236, 236, 236);
+        color: white;
+        /* text-align: center; */
+      }
+  
+
+
+.footerrules{
+    float: right;
+}
+
+.footerlinks{
+    text-decoration: none;
+}
